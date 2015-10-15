@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ParsingYoutuveViewController.h
 //  SaveYoutube
 //
 //  Created by ALLENMAC on 2015/10/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface ParsingYoutuveViewController : UIViewController
 
 @end
-

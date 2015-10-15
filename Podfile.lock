@@ -1,0 +1,35 @@
+PODS:
+  - ALUtilities (1.0.5)
+  - DaiYoutubeParser (0.1)
+  - KVOController (1.0.3)
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - ALUtilities (from `https://github.com/cczallen/ALUtilities.git`)
+  - DaiYoutubeParser (from `https://github.com/cczallen/DaiYoutubeParser.git`, branch
+    `CocoaPodsSpec`)
+  - KVOController
+  - SVProgressHUD (~> 1.1)
+
+EXTERNAL SOURCES:
+  ALUtilities:
+    :git: https://github.com/cczallen/ALUtilities.git
+  DaiYoutubeParser:
+    :branch: CocoaPodsSpec
+    :git: https://github.com/cczallen/DaiYoutubeParser.git
+
+CHECKOUT OPTIONS:
+  ALUtilities:
+    :commit: 45d48d01e65619f8f75013dd4354aca654759208
+    :git: https://github.com/cczallen/ALUtilities.git
+  DaiYoutubeParser:
+    :commit: cc404ff42692584bcac304d6d4c0797619675f6a
+    :git: https://github.com/cczallen/DaiYoutubeParser.git
+
+SPEC CHECKSUMS:
+  ALUtilities: 39718d6b931297dab39efc331637e8293cef77a3
+  DaiYoutubeParser: 5869b50d594c7e613540a65097f164ef20c16974
+  KVOController: 9fd8f0343670994e4b6f9f0b31f5a45663f3e1cf
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+COCOAPODS: 0.38.2

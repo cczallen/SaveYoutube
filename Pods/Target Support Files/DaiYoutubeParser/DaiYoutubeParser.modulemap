@@ -1,0 +1,6 @@
+framework module DaiYoutubeParser {
+  umbrella header "DaiYoutubeParser-umbrella.h"
+
+  export *
+  module * { export * }
+}

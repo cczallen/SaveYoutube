@@ -1,0 +1,26 @@
+{
+  "name": "DaiYoutubeParser",
+  "version": "0.1",
+  "homepage": "https://github.com/cczallen/DaiYoutubeParser",
+  "authors": {
+    "DaidoujiChen": "daidoujichen@gmail.com",
+    "Allen Lee": "cczallen@gmail.com"
+  },
+  "summary": "Parse the youtube video url path, do any custom things you want.",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/cczallen/DaiYoutubeParser.git",
+    "tag": "0.1"
+  },
+  "source_files": "DaiYoutubeParser/DaiYoutubeParser/*.{h,m,html}",
+  "ios": {
+    "resource_bundles": {
+      "resources": [
+        "DaiYoutubeParser/DaiYoutubeParser/YoutubeParserBridge.html"
+      ]
+    }
+  },
+  "requires_arc": true
+}

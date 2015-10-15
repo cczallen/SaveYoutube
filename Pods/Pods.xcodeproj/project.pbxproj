@@ -1,0 +1,1160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017C1BEFCAB32AB0F4957B6691A228F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6EFA2FB6476996DA3BE87E32B52B69 /* Foundation.framework */; };
+		08DE5EF26318E9A96D51EFD994F3C138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6EFA2FB6476996DA3BE87E32B52B69 /* Foundation.framework */; };
+		0B9BED6670E1800534384A347F724E75 /* ALUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A1394405EAAA020A84F0A06D29FA7D74 /* ALUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E1D7412885ECBF132B527405C017007 /* ALUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FB5E677C538FF0326ECC44F36CC41D /* ALUtilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ED2ABCF8D5F86C9B673707931B3906F /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 160FAFDD01615679A73D463CAB98FD9B /* SVIndefiniteAnimatedView.m */; };
+		23B7333F7DB45582EE47B940BCD3B57A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6EFA2FB6476996DA3BE87E32B52B69 /* Foundation.framework */; };
+		26A598C1583CC7A9EA51C200F96FE78F /* DaiYoutubeParserOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DEFE1DAFA1E425B3FD62AEEB40CB4B /* DaiYoutubeParserOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27A00FED651D9611B30F09F148B66DCE /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C4DC06CBC9D0D501C9109BA6E9C593 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28AEE97EDB0C1D4E416E424E5E0F5595 /* DaiYoutubeParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7694F19B154BD4966E1CA07EF1A9BB /* DaiYoutubeParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38347B569B55C922B66402C492950AD1 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27179B7FA11C83574FAC0D1A42630A67 /* SVProgressHUD-dummy.m */; };
+		39E9A8BA169A22D44FB7822E3B0F2A53 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D155FB7467254D0690132E4CF52A6 /* SVProgressHUD.m */; };
+		3D7828B0156278F71085BAEF11615A6E /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63039E72C26624FB862C5923417ED154 /* KVOController-dummy.m */; };
+		451570EC2532B5950ECAFBB06467C626 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF4872AC631E92D0FC3E12DBFC7B0523 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46E49F31C9D71622C4799BED09B0FE0E /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 004D5F10AAD4D00940C7F7B5A7625DEA /* resources.bundle */; };
+		59169305E4066513EFE7A26399FB9C1A /* DaiYoutubeParserWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E31ABA13B0CB625AA41CEB40FEE80F21 /* DaiYoutubeParserWebView.m */; };
+		62C10B9887CAED9D39E71ED2636678E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6EFA2FB6476996DA3BE87E32B52B69 /* Foundation.framework */; };
+		782C1260E0563BA980B0AAECBF003C9E /* DaiYoutubeParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7270D4FCC9FC9914CEB3FC877F137DD /* DaiYoutubeParser-dummy.m */; };
+		88CCB662D2A849645667CB24CFCD0E44 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B03CCFF9495526AF2272EAEE748D1316 /* Pods-dummy.m */; };
+		8B6CCD531C6DDACBC96F9B8755C90DCB /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5130A69E51586F77FF832D1282C3798F /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90609EF96AE1F72C5CF3B896A227779B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 328C5C16529970384DF08F8A97791935 /* SVProgressHUD.bundle */; };
+		92193ADEDFAFDFC61577DF0AAC8253B9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A48C2A51E21E980080AE28105B8C03 /* QuartzCore.framework */; };
+		A93F060A64F541AB85C03B55998E5C86 /* DaiYoutubeParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 91763AA9B76FBC39E03DEB6AE8ED1432 /* DaiYoutubeParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A5A943A3A85774E97AEA5CD5A1EBAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6EFA2FB6476996DA3BE87E32B52B69 /* Foundation.framework */; };
+		B732BF77A8F7C7A7EBB3B851ABC30DF7 /* DaiYoutubeParserWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 704F9A889231F5F3F6FBF9A46D0EC134 /* DaiYoutubeParserWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2EBBEFFBC92A5B22BBB97E60815BEB4 /* ALUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F2DCBF60BD66F581AE619652B72349 /* ALUtilities.m */; };
+		C730C91C581CC254185061A84CCDB096 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B7C9C67D6A6676E9B7C748AE1452F0 /* FBKVOController.m */; };
+		CC3A3C8101F4AF0B85A4D9900CB235AD /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = D06DC1A49820B525E8075FB9B854E49A /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD930FA9C560BFBA0C6C5676865FB91B /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 882989AC97A073D7282C7436C678FABF /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D52FDADF5B4F15E2B6FBA3ADC31DF3DC /* DaiYoutubeParserOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A85CC3FC63E086492CE2CE5A8933918 /* DaiYoutubeParserOperation.m */; };
+		DB111167F4C6E8305D9A85AF7F961E74 /* DaiYoutubeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 777CA9201A44F35EB5BB3768CD67AAF0 /* DaiYoutubeParser.m */; };
+		E0377F55F40AC964AEBAD114DA099783 /* YoutubeParserBridge.html in Sources */ = {isa = PBXBuildFile; fileRef = 47EEFE5DAE96D1C6CFEFB70A4BC54011 /* YoutubeParserBridge.html */; };
+		E1CC8CABD8D56FFED4EA96CB5F43424F /* YoutubeParserBridge.html in Resources */ = {isa = PBXBuildFile; fileRef = 47EEFE5DAE96D1C6CFEFB70A4BC54011 /* YoutubeParserBridge.html */; };
+		E2235DC230F4780A6519D0C198C47FE6 /* ALUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F70BCE3D43438E5C24A27E5C4C824A /* ALUtilities-dummy.m */; };
+		EDB2D000DEC594DC8C15CB65F0B986D9 /* KVOController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A8727C69FE81426FC13367A8BEACBC /* KVOController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF40307F5AD2FCD929C6C61B913BD786 /* DaiYoutubeParserDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2F0F2F94C4BCDCFB98AB6A9295777C /* DaiYoutubeParserDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2721C0B82A5FC09FFE15192D1B1C4343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093FDB99237A98204C57AC780A31AB07;
+			remoteInfo = KVOController;
+		};
+		62C1A1851C5493150484317D173B8A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0E5A6E54CB7F94DFFC90BC974D5CF52;
+			remoteInfo = ALUtilities;
+		};
+		A0B7E8B417A07C76EF4926CEEE48C796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2F50D4665150D1FFEC0E8B496BD0D36;
+			remoteInfo = DaiYoutubeParser;
+		};
+		A205DE4788CCDD1E1E6EB628538420BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF8DCC182A3E8FEBE89611BBACC9D07;
+			remoteInfo = "DaiYoutubeParser-resources";
+		};
+		A21838ED09471888AA28C43C4CAC223D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A064B75A9838606659BB57FE5AC8A101;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004D5F10AAD4D00940C7F7B5A7625DEA /* resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DDD729BAE1BA4F00791A4FAD4A981A /* ALUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALUtilities.modulemap; sourceTree = "<group>"; };
+		160FAFDD01615679A73D463CAB98FD9B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		1D760BE6D59C85A6E01F0F22E7D57C7B /* KVOController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KVOController-Private.xcconfig"; sourceTree = "<group>"; };
+		239992E971B9C6FBA6DFDE3270AB7049 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B7C9C67D6A6676E9B7C748AE1452F0 /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
+		26F2DCBF60BD66F581AE619652B72349 /* ALUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALUtilities.m; path = ALUtilities/ALUtilities/ALUtilities.m; sourceTree = "<group>"; };
+		27179B7FA11C83574FAC0D1A42630A67 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		2A85CC3FC63E086492CE2CE5A8933918 /* DaiYoutubeParserOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DaiYoutubeParserOperation.m; path = DaiYoutubeParser/DaiYoutubeParser/DaiYoutubeParserOperation.m; sourceTree = "<group>"; };
+		2F2C27FBC9E94B849157E8A7826EA685 /* ALUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		328C5C16529970384DF08F8A97791935 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		3568D1906B8BBD659EB3F6527EF80473 /* KVOController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KVOController.modulemap; sourceTree = "<group>"; };
+		35A8727C69FE81426FC13367A8BEACBC /* KVOController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-umbrella.h"; sourceTree = "<group>"; };
+		40D48C206EF7EC4D5F376796307D302E /* ALUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALUtilities-prefix.pch"; sourceTree = "<group>"; };
+		454A05484BE87A743D43623F74438A90 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		47EEFE5DAE96D1C6CFEFB70A4BC54011 /* YoutubeParserBridge.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = YoutubeParserBridge.html; path = DaiYoutubeParser/DaiYoutubeParser/YoutubeParserBridge.html; sourceTree = "<group>"; };
+		47F4624B8C8791D0826B4BC23644E28C /* DaiYoutubeParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DaiYoutubeParser.xcconfig; sourceTree = "<group>"; };
+		488BA7D252D7ACFDA7F42135A980AE01 /* DaiYoutubeParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DaiYoutubeParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5130A69E51586F77FF832D1282C3798F /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		55C3EFC024E0E17675C260397E82EE13 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63039E72C26624FB862C5923417ED154 /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
+		63E2B0F25DEA9CEA28F95464D8D07C74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6865533C8694DCF74B94C4E139122674 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		6B7694F19B154BD4966E1CA07EF1A9BB /* DaiYoutubeParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DaiYoutubeParser-umbrella.h"; sourceTree = "<group>"; };
+		6ED832FD1F859B4C6E907D7D38BD649F /* KVOController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.xcconfig; sourceTree = "<group>"; };
+		704F9A889231F5F3F6FBF9A46D0EC134 /* DaiYoutubeParserWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DaiYoutubeParserWebView.h; path = DaiYoutubeParser/DaiYoutubeParser/DaiYoutubeParserWebView.h; sourceTree = "<group>"; };
+		7213FA53A39FF684D08753CE680553BF /* ALUtilities-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ALUtilities-Private.xcconfig"; sourceTree = "<group>"; };
+		74168FAFB764A41657B58BF24FD1FD14 /* DaiYoutubeParser-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DaiYoutubeParser-Private.xcconfig"; sourceTree = "<group>"; };
+		777CA9201A44F35EB5BB3768CD67AAF0 /* DaiYoutubeParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DaiYoutubeParser.m; path = DaiYoutubeParser/DaiYoutubeParser/DaiYoutubeParser.m; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7D33DF431668E4AF9EBBB14DCF7456C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		7F78CBA247526BE78BBD3E4BBE26DF71 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		84C4DC06CBC9D0D501C9109BA6E9C593 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		882989AC97A073D7282C7436C678FABF /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		91763AA9B76FBC39E03DEB6AE8ED1432 /* DaiYoutubeParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DaiYoutubeParser.h; path = DaiYoutubeParser/DaiYoutubeParser/DaiYoutubeParser.h; sourceTree = "<group>"; };
+		9B307DAD75A13725C8EE04BFE0D754AA /* DaiYoutubeParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DaiYoutubeParser-prefix.pch"; sourceTree = "<group>"; };
+		A1394405EAAA020A84F0A06D29FA7D74 /* ALUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALUtilities.h; path = ALUtilities/ALUtilities/ALUtilities.h; sourceTree = "<group>"; };
+		A49D155FB7467254D0690132E4CF52A6 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		B033059009C89599B518B04026415BD0 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03CCFF9495526AF2272EAEE748D1316 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		B2DEFE1DAFA1E425B3FD62AEEB40CB4B /* DaiYoutubeParserOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DaiYoutubeParserOperation.h; path = DaiYoutubeParser/DaiYoutubeParser/DaiYoutubeParserOperation.h; sourceTree = "<group>"; };
+		B5041E49D2D85055674F5469B43E410C /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF14674853BEEB22C985EF9DC7EDC890 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		C0A48C2A51E21E980080AE28105B8C03 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C664627F10F2C28B679A326BC5D7E219 /* ALUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALUtilities.xcconfig; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CF2F0F2F94C4BCDCFB98AB6A9295777C /* DaiYoutubeParserDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DaiYoutubeParserDefine.h; path = DaiYoutubeParser/DaiYoutubeParser/DaiYoutubeParserDefine.h; sourceTree = "<group>"; };
+		CF4872AC631E92D0FC3E12DBFC7B0523 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		CF71D8803150C2D294F5501C29E4B595 /* DaiYoutubeParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DaiYoutubeParser.modulemap; sourceTree = "<group>"; };
+		CFEF0730347FC68A56DAEC1E13C6413A /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D06DC1A49820B525E8075FB9B854E49A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		D0F70BCE3D43438E5C24A27E5C4C824A /* ALUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALUtilities-dummy.m"; sourceTree = "<group>"; };
+		E31ABA13B0CB625AA41CEB40FEE80F21 /* DaiYoutubeParserWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DaiYoutubeParserWebView.m; path = DaiYoutubeParser/DaiYoutubeParser/DaiYoutubeParserWebView.m; sourceTree = "<group>"; };
+		E6D7C96AB8C2B462888DA90F536F24BE /* SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		E723EDF642F5EEAAD9295249F398D551 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6EFA2FB6476996DA3BE87E32B52B69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F0FB5E677C538FF0326ECC44F36CC41D /* ALUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALUtilities-umbrella.h"; sourceTree = "<group>"; };
+		F7270D4FCC9FC9914CEB3FC877F137DD /* DaiYoutubeParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DaiYoutubeParser-dummy.m"; sourceTree = "<group>"; };
+		FE4CE215BF237CF6EBAB0CB05753DB22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24158B5889FFB2C051B998F3809CC00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DE5EF26318E9A96D51EFD994F3C138 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EEBDFF255BADF274D55C0364EEFF0D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76022887D3FA8066E886587DC6DACE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B7333F7DB45582EE47B940BCD3B57A /* Foundation.framework in Frameworks */,
+				92193ADEDFAFDFC61577DF0AAC8253B9 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF86CCED12527E2227D61CAEDBE7775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017C1BEFCAB32AB0F4957B6691A228F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05A1999988B757DBA14BF424461AFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A5A943A3A85774E97AEA5CD5A1EBAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B3F12EF768EB41EC6009C3A7343EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C10B9887CAED9D39E71ED2636678E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FC04B06EEF8A155D545C321FDCC389 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE6EFA2FB6476996DA3BE87E32B52B69 /* Foundation.framework */,
+				C0A48C2A51E21E980080AE28105B8C03 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1528723FC14E56FCF399234AB29FF09B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				239992E971B9C6FBA6DFDE3270AB7049 /* Info.plist */,
+				3568D1906B8BBD659EB3F6527EF80473 /* KVOController.modulemap */,
+				6ED832FD1F859B4C6E907D7D38BD649F /* KVOController.xcconfig */,
+				1D760BE6D59C85A6E01F0F22E7D57C7B /* KVOController-Private.xcconfig */,
+				63039E72C26624FB862C5923417ED154 /* KVOController-dummy.m */,
+				CFEF0730347FC68A56DAEC1E13C6413A /* KVOController-prefix.pch */,
+				35A8727C69FE81426FC13367A8BEACBC /* KVOController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KVOController";
+			sourceTree = "<group>";
+		};
+		1D41FB6B09893899FB84644C14D42415 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DDD729BAE1BA4F00791A4FAD4A981A /* ALUtilities.modulemap */,
+				C664627F10F2C28B679A326BC5D7E219 /* ALUtilities.xcconfig */,
+				7213FA53A39FF684D08753CE680553BF /* ALUtilities-Private.xcconfig */,
+				D0F70BCE3D43438E5C24A27E5C4C824A /* ALUtilities-dummy.m */,
+				40D48C206EF7EC4D5F376796307D302E /* ALUtilities-prefix.pch */,
+				F0FB5E677C538FF0326ECC44F36CC41D /* ALUtilities-umbrella.h */,
+				E723EDF642F5EEAAD9295249F398D551 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALUtilities";
+			sourceTree = "<group>";
+		};
+		2786AB30442A517DF9ABC73D25338E26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE4CE215BF237CF6EBAB0CB05753DB22 /* Info.plist */,
+				6865533C8694DCF74B94C4E139122674 /* SVProgressHUD.modulemap */,
+				454A05484BE87A743D43623F74438A90 /* SVProgressHUD.xcconfig */,
+				E6D7C96AB8C2B462888DA90F536F24BE /* SVProgressHUD-Private.xcconfig */,
+				27179B7FA11C83574FAC0D1A42630A67 /* SVProgressHUD-dummy.m */,
+				BF14674853BEEB22C985EF9DC7EDC890 /* SVProgressHUD-prefix.pch */,
+				CF4872AC631E92D0FC3E12DBFC7B0523 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00FC04B06EEF8A155D545C321FDCC389 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51F98EDC34E4719C14D9DFE66033CAFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B22F3D57B30F3AD96EEB3CBB5FF4CA47 /* ALUtilities */,
+				7525256DC053B784C212D04077796C82 /* DaiYoutubeParser */,
+				9E9B0ADD654CB6812F9E7E986645326E /* KVOController */,
+				F739F7D5161E4262B1D51B1AEA8DC255 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66F326A65C0CB4F384E7172FB082F49F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7525256DC053B784C212D04077796C82 /* DaiYoutubeParser */ = {
+			isa = PBXGroup;
+			children = (
+				91763AA9B76FBC39E03DEB6AE8ED1432 /* DaiYoutubeParser.h */,
+				777CA9201A44F35EB5BB3768CD67AAF0 /* DaiYoutubeParser.m */,
+				CF2F0F2F94C4BCDCFB98AB6A9295777C /* DaiYoutubeParserDefine.h */,
+				B2DEFE1DAFA1E425B3FD62AEEB40CB4B /* DaiYoutubeParserOperation.h */,
+				2A85CC3FC63E086492CE2CE5A8933918 /* DaiYoutubeParserOperation.m */,
+				704F9A889231F5F3F6FBF9A46D0EC134 /* DaiYoutubeParserWebView.h */,
+				E31ABA13B0CB625AA41CEB40FEE80F21 /* DaiYoutubeParserWebView.m */,
+				47EEFE5DAE96D1C6CFEFB70A4BC54011 /* YoutubeParserBridge.html */,
+				66F326A65C0CB4F384E7172FB082F49F /* Resources */,
+				8B05DBCD69E9EC1A1BFCA5D697BD68BF /* Support Files */,
+			);
+			path = DaiYoutubeParser;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				B03CCFF9495526AF2272EAEE748D1316 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				882989AC97A073D7282C7436C678FABF /* Pods-umbrella.h */,
+				7D33DF431668E4AF9EBBB14DCF7456C4 /* Pods.debug.xcconfig */,
+				7F78CBA247526BE78BBD3E4BBE26DF71 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				51F98EDC34E4719C14D9DFE66033CAFF /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B05DBCD69E9EC1A1BFCA5D697BD68BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF71D8803150C2D294F5501C29E4B595 /* DaiYoutubeParser.modulemap */,
+				47F4624B8C8791D0826B4BC23644E28C /* DaiYoutubeParser.xcconfig */,
+				74168FAFB764A41657B58BF24FD1FD14 /* DaiYoutubeParser-Private.xcconfig */,
+				F7270D4FCC9FC9914CEB3FC877F137DD /* DaiYoutubeParser-dummy.m */,
+				9B307DAD75A13725C8EE04BFE0D754AA /* DaiYoutubeParser-prefix.pch */,
+				6B7694F19B154BD4966E1CA07EF1A9BB /* DaiYoutubeParser-umbrella.h */,
+				63E2B0F25DEA9CEA28F95464D8D07C74 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DaiYoutubeParser";
+			sourceTree = "<group>";
+		};
+		9E9B0ADD654CB6812F9E7E986645326E /* KVOController */ = {
+			isa = PBXGroup;
+			children = (
+				84C4DC06CBC9D0D501C9109BA6E9C593 /* FBKVOController.h */,
+				24B7C9C67D6A6676E9B7C748AE1452F0 /* FBKVOController.m */,
+				1528723FC14E56FCF399234AB29FF09B /* Support Files */,
+			);
+			path = KVOController;
+			sourceTree = "<group>";
+		};
+		B22F3D57B30F3AD96EEB3CBB5FF4CA47 /* ALUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A1394405EAAA020A84F0A06D29FA7D74 /* ALUtilities.h */,
+				26F2DCBF60BD66F581AE619652B72349 /* ALUtilities.m */,
+				1D41FB6B09893899FB84644C14D42415 /* Support Files */,
+			);
+			path = ALUtilities;
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C29F3366882E1E918B6E472C65806BB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				328C5C16529970384DF08F8A97791935 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F2C27FBC9E94B849157E8A7826EA685 /* ALUtilities.framework */,
+				488BA7D252D7ACFDA7F42135A980AE01 /* DaiYoutubeParser.framework */,
+				B033059009C89599B518B04026415BD0 /* KVOController.framework */,
+				55C3EFC024E0E17675C260397E82EE13 /* Pods.framework */,
+				B5041E49D2D85055674F5469B43E410C /* SVProgressHUD.framework */,
+				004D5F10AAD4D00940C7F7B5A7625DEA /* resources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F739F7D5161E4262B1D51B1AEA8DC255 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D06DC1A49820B525E8075FB9B854E49A /* SVIndefiniteAnimatedView.h */,
+				160FAFDD01615679A73D463CAB98FD9B /* SVIndefiniteAnimatedView.m */,
+				5130A69E51586F77FF832D1282C3798F /* SVProgressHUD.h */,
+				A49D155FB7467254D0690132E4CF52A6 /* SVProgressHUD.m */,
+				C29F3366882E1E918B6E472C65806BB2 /* Resources */,
+				2786AB30442A517DF9ABC73D25338E26 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00009256492E34A0DE4E758900DD76F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1D7412885ECBF132B527405C017007 /* ALUtilities-umbrella.h in Headers */,
+				0B9BED6670E1800534384A347F724E75 /* ALUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08236B0EADD8D157E1F5279B05A0962F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD930FA9C560BFBA0C6C5676865FB91B /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301A06A2A0025B14B4773021D4D5BD3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AEE97EDB0C1D4E416E424E5E0F5595 /* DaiYoutubeParser-umbrella.h in Headers */,
+				A93F060A64F541AB85C03B55998E5C86 /* DaiYoutubeParser.h in Headers */,
+				EF40307F5AD2FCD929C6C61B913BD786 /* DaiYoutubeParserDefine.h in Headers */,
+				26A598C1583CC7A9EA51C200F96FE78F /* DaiYoutubeParserOperation.h in Headers */,
+				B732BF77A8F7C7A7EBB3B851ABC30DF7 /* DaiYoutubeParserWebView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87E0CB1B9ACCC94CDAB271BBD4E2F3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A00FED651D9611B30F09F148B66DCE /* FBKVOController.h in Headers */,
+				EDB2D000DEC594DC8C15CB65F0B986D9 /* KVOController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E69C45588DCE40C46174E8134C1D7382 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3A3C8101F4AF0B85A4D9900CB235AD /* SVIndefiniteAnimatedView.h in Headers */,
+				451570EC2532B5950ECAFBB06467C626 /* SVProgressHUD-umbrella.h in Headers */,
+				8B6CCD531C6DDACBC96F9B8755C90DCB /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		093FDB99237A98204C57AC780A31AB07 /* KVOController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD35D6690B6AF75E296C7F28BF342064 /* Build configuration list for PBXNativeTarget "KVOController" */;
+			buildPhases = (
+				BDA47000A0FB4F137BFD558C18840523 /* Sources */,
+				24158B5889FFB2C051B998F3809CC00E /* Frameworks */,
+				D87E0CB1B9ACCC94CDAB271BBD4E2F3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVOController;
+			productName = KVOController;
+			productReference = B033059009C89599B518B04026415BD0 /* KVOController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A064B75A9838606659BB57FE5AC8A101 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4F7D2F92F1A05935C16C7B7A80469E1 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				AE61CF5E10429DA9728C4B1295982CA6 /* Sources */,
+				76022887D3FA8066E886587DC6DACE17 /* Frameworks */,
+				E69C45588DCE40C46174E8134C1D7382 /* Headers */,
+				4E623279ECD2F7A3EACBDF63EE6C6A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = B5041E49D2D85055674F5469B43E410C /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0E5A6E54CB7F94DFFC90BC974D5CF52 /* ALUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF36841103A006EEA64DEE4117363C9 /* Build configuration list for PBXNativeTarget "ALUtilities" */;
+			buildPhases = (
+				AFEE68C9456E7FB7C621DAF649522E93 /* Sources */,
+				E05A1999988B757DBA14BF424461AFA6 /* Frameworks */,
+				00009256492E34A0DE4E758900DD76F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALUtilities;
+			productName = ALUtilities;
+			productReference = 2F2C27FBC9E94B849157E8A7826EA685 /* ALUtilities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B22FFC818132253269154895A3A69260 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCD1A0AEAFF5E208BAAF558AFBC6247 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				9F0329F07EDDE9D8F25B99A8C2E2A94B /* Sources */,
+				8FF86CCED12527E2227D61CAEDBE7775 /* Frameworks */,
+				08236B0EADD8D157E1F5279B05A0962F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31BA7064F9D9BFCBBEE6FEAA31474C74 /* PBXTargetDependency */,
+				8DE0C90201BDF6E9F212EDBAEE95F890 /* PBXTargetDependency */,
+				899E15DC378C98367F861585E99BE2D6 /* PBXTargetDependency */,
+				03B9B59D73FBE9110F701D6DF4486147 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 55C3EFC024E0E17675C260397E82EE13 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2F50D4665150D1FFEC0E8B496BD0D36 /* DaiYoutubeParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5658F7A190DDE0F17FC20D5F87760F0 /* Build configuration list for PBXNativeTarget "DaiYoutubeParser" */;
+			buildPhases = (
+				C05A3B93FBF567DEAF684805C357A488 /* Sources */,
+				F5B3F12EF768EB41EC6009C3A7343EA8 /* Frameworks */,
+				0073B5AE4E7292527E752289646DC871 /* Resources */,
+				301A06A2A0025B14B4773021D4D5BD3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93D2703520B526B4295AACCEE88DBB4F /* PBXTargetDependency */,
+			);
+			name = DaiYoutubeParser;
+			productName = DaiYoutubeParser;
+			productReference = 488BA7D252D7ACFDA7F42135A980AE01 /* DaiYoutubeParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBF8DCC182A3E8FEBE89611BBACC9D07 /* DaiYoutubeParser-resources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68A20467B87F6D12146F827439FB32CE /* Build configuration list for PBXNativeTarget "DaiYoutubeParser-resources" */;
+			buildPhases = (
+				013A0B5A1D4C82239AB1AC25EAB8A490 /* Sources */,
+				6EEBDFF255BADF274D55C0364EEFF0D4 /* Frameworks */,
+				F880599763EE3D1A2ACD80657DF35D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DaiYoutubeParser-resources";
+			productName = "DaiYoutubeParser-resources";
+			productReference = 004D5F10AAD4D00940C7F7B5A7625DEA /* resources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0E5A6E54CB7F94DFFC90BC974D5CF52 /* ALUtilities */,
+				D2F50D4665150D1FFEC0E8B496BD0D36 /* DaiYoutubeParser */,
+				FBF8DCC182A3E8FEBE89611BBACC9D07 /* DaiYoutubeParser-resources */,
+				093FDB99237A98204C57AC780A31AB07 /* KVOController */,
+				B22FFC818132253269154895A3A69260 /* Pods */,
+				A064B75A9838606659BB57FE5AC8A101 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0073B5AE4E7292527E752289646DC871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E49F31C9D71622C4799BED09B0FE0E /* resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E623279ECD2F7A3EACBDF63EE6C6A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90609EF96AE1F72C5CF3B896A227779B /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F880599763EE3D1A2ACD80657DF35D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CC8CABD8D56FFED4EA96CB5F43424F /* YoutubeParserBridge.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013A0B5A1D4C82239AB1AC25EAB8A490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0329F07EDDE9D8F25B99A8C2E2A94B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CCB662D2A849645667CB24CFCD0E44 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE61CF5E10429DA9728C4B1295982CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED2ABCF8D5F86C9B673707931B3906F /* SVIndefiniteAnimatedView.m in Sources */,
+				38347B569B55C922B66402C492950AD1 /* SVProgressHUD-dummy.m in Sources */,
+				39E9A8BA169A22D44FB7822E3B0F2A53 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEE68C9456E7FB7C621DAF649522E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2235DC230F4780A6519D0C198C47FE6 /* ALUtilities-dummy.m in Sources */,
+				C2EBBEFFBC92A5B22BBB97E60815BEB4 /* ALUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA47000A0FB4F137BFD558C18840523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C730C91C581CC254185061A84CCDB096 /* FBKVOController.m in Sources */,
+				3D7828B0156278F71085BAEF11615A6E /* KVOController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A3B93FBF567DEAF684805C357A488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782C1260E0563BA980B0AAECBF003C9E /* DaiYoutubeParser-dummy.m in Sources */,
+				DB111167F4C6E8305D9A85AF7F961E74 /* DaiYoutubeParser.m in Sources */,
+				D52FDADF5B4F15E2B6FBA3ADC31DF3DC /* DaiYoutubeParserOperation.m in Sources */,
+				59169305E4066513EFE7A26399FB9C1A /* DaiYoutubeParserWebView.m in Sources */,
+				E0377F55F40AC964AEBAD114DA099783 /* YoutubeParserBridge.html in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03B9B59D73FBE9110F701D6DF4486147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = A064B75A9838606659BB57FE5AC8A101 /* SVProgressHUD */;
+			targetProxy = A21838ED09471888AA28C43C4CAC223D /* PBXContainerItemProxy */;
+		};
+		31BA7064F9D9BFCBBEE6FEAA31474C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALUtilities;
+			target = A0E5A6E54CB7F94DFFC90BC974D5CF52 /* ALUtilities */;
+			targetProxy = 62C1A1851C5493150484317D173B8A70 /* PBXContainerItemProxy */;
+		};
+		899E15DC378C98367F861585E99BE2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVOController;
+			target = 093FDB99237A98204C57AC780A31AB07 /* KVOController */;
+			targetProxy = 2721C0B82A5FC09FFE15192D1B1C4343 /* PBXContainerItemProxy */;
+		};
+		8DE0C90201BDF6E9F212EDBAEE95F890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DaiYoutubeParser;
+			target = D2F50D4665150D1FFEC0E8B496BD0D36 /* DaiYoutubeParser */;
+			targetProxy = A0B7E8B417A07C76EF4926CEEE48C796 /* PBXContainerItemProxy */;
+		};
+		93D2703520B526B4295AACCEE88DBB4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DaiYoutubeParser-resources";
+			target = FBF8DCC182A3E8FEBE89611BBACC9D07 /* DaiYoutubeParser-resources */;
+			targetProxy = A205DE4788CCDD1E1E6EB628538420BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		004E7B20AB7C7EACD39BB0B440A55AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D760BE6D59C85A6E01F0F22E7D57C7B /* KVOController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVOController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KVOController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1370D253A5F49FE94541D1E507D69CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D7C96AB8C2B462888DA90F536F24BE /* SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		199439A1CC6646A0CBD38006359BD7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D760BE6D59C85A6E01F0F22E7D57C7B /* KVOController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVOController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KVOController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47F7B4B6EC3B44248C4AEBAC22B89E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74168FAFB764A41657B58BF24FD1FD14 /* DaiYoutubeParser-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5AFEC7198ACD6B2FAC0831018DB21447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7213FA53A39FF684D08753CE680553BF /* ALUtilities-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.5;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALUtilities/ALUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALUtilities/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALUtilities/ALUtilities.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ALUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FEA6CD48A08EE1047D05D3EDF74357D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74168FAFB764A41657B58BF24FD1FD14 /* DaiYoutubeParser-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DaiYoutubeParser/DaiYoutubeParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DaiYoutubeParser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DaiYoutubeParser/DaiYoutubeParser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DaiYoutubeParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9CB014E2349D33A20B5A11392BFE2E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74168FAFB764A41657B58BF24FD1FD14 /* DaiYoutubeParser-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DaiYoutubeParser/DaiYoutubeParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DaiYoutubeParser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DaiYoutubeParser/DaiYoutubeParser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DaiYoutubeParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3D519B6F0F94F57BE48172D2402EC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F78CBA247526BE78BBD3E4BBE26DF71 /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB25E3D9E05D9CA8F4CB30B99C79F202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D7C96AB8C2B462888DA90F536F24BE /* SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC4480BB877B13110EBC70987DE63918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D33DF431668E4AF9EBBB14DCF7456C4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E21C1A53CE0A3A08304EABDA0ACF94EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7213FA53A39FF684D08753CE680553BF /* ALUtilities-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.5;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALUtilities/ALUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALUtilities/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALUtilities/ALUtilities.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ALUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4A636538FF7279A3984426EF2F860B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74168FAFB764A41657B58BF24FD1FD14 /* DaiYoutubeParser-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68A20467B87F6D12146F827439FB32CE /* Build configuration list for PBXNativeTarget "DaiYoutubeParser-resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A636538FF7279A3984426EF2F860B3 /* Debug */,
+				47F7B4B6EC3B44248C4AEBAC22B89E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCD1A0AEAFF5E208BAAF558AFBC6247 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4480BB877B13110EBC70987DE63918 /* Debug */,
+				A3D519B6F0F94F57BE48172D2402EC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5658F7A190DDE0F17FC20D5F87760F0 /* Build configuration list for PBXNativeTarget "DaiYoutubeParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB014E2349D33A20B5A11392BFE2E18 /* Debug */,
+				6FEA6CD48A08EE1047D05D3EDF74357D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4F7D2F92F1A05935C16C7B7A80469E1 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1370D253A5F49FE94541D1E507D69CE8 /* Debug */,
+				AB25E3D9E05D9CA8F4CB30B99C79F202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD35D6690B6AF75E296C7F28BF342064 /* Build configuration list for PBXNativeTarget "KVOController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199439A1CC6646A0CBD38006359BD7D4 /* Debug */,
+				004E7B20AB7C7EACD39BB0B440A55AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF36841103A006EEA64DEE4117363C9 /* Build configuration list for PBXNativeTarget "ALUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21C1A53CE0A3A08304EABDA0ACF94EA /* Debug */,
+				5AFEC7198ACD6B2FAC0831018DB21447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
